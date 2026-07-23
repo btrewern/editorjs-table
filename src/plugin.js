@@ -248,6 +248,7 @@ export default class TableBlock {
     /** Update Tool's data */
     this.data = {
       withHeadings: firstRowHeading !== null,
+      stretched: false,
       content
     };
 
