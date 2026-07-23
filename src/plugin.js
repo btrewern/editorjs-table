@@ -70,6 +70,7 @@ export default class TableBlock {
     };
     this.table = null;
     this.block = block;
+    this.container = null;
   }
 
   /**
@@ -106,6 +107,7 @@ export default class TableBlock {
 
   /**
    * Hook called after the block is fully rendered and mounted
+   * Set this.block.stretched here as block is not initialized in render().
    *
    * @returns {void}
    */
