@@ -70,7 +70,6 @@ export default class TableBlock {
     };
     this.table = null;
     this.block = block;
-    this.container = null;
   }
 
   /**
